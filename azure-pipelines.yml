@@ -15,6 +15,7 @@ steps:
   inputs:
     provider: 'azurerm'
     command: 'init'
+    workingDirectory: 'D:\agents\new_agent\_work\2\s'
     backendServiceArm: 'saurabh pipeline service connection'
     backendAzureRmResourceGroupName: 'pipelinerg20'
     backendAzureRmStorageAccountName: 'pipelinestg20'
